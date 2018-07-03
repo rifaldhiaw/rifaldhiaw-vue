@@ -1,0 +1,109 @@
+/* HOME */
+  /* logo utama */
+  .logo-enter-active, .logo-leave-active {
+    transition: all 5s ease-out;
+  }
+  .logo-enter, .logo-leave-to {
+    opacity: 0;
+    transform: rotateY(500deg);
+  }
+  /* logo title */
+  .logo-title-active, .logo-title-leave-active {
+    transition: all 1s ease-out;
+  }
+  .logo-title-enter, .logo-title-leave-to {
+    opacity: 0;
+  }
+
+/* ABOUT */
+  /* kotak photo about */
+  .fade-kotak-enter-active, .fade-kotak-leave-active {
+    transition: all 1s ease-in-out .5s;
+  }
+  .fade-kotak-enter, .fade-kotak-leave-to {
+    opacity: 0;
+    transform: scale(10)
+  }
+  /* photo about */
+  .scale-p-enter-active, .scale-p-leave-active {
+    transition: all 1.5s ease-in-out;
+  }
+  .scale-p-enter, .scale-p-leave-to {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+
+/* WORKS */
+  /* img works title */
+  .scale-nameworks-enter-active, .scale-nameworks-leave-active {
+    transition: all 1.5s ease-in-out .5s;
+  }
+  .scale-nameworks-enter, .scale-nameworks-leave-to {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  /* img works */
+  .image-works-enter-active, .image-works-leave-active {
+    transition: all 3s ease-out;
+  }
+  .image-works-enter, .image-works-leave-to {
+    opacity: 0;
+    transform: rotateX(-50deg);
+  }
+
+/* SKILL */
+  /* skill percent bar */
+  .slide-skill-enter-active, .slide-skill-leave-active {
+    transition: all 3s ease-out 1s;
+  }
+  .slide-skill-enter, .slide-skill-leave-to {
+    transform: scaleX(0.1);
+    transform-origin: left;
+  }
+
+/* PUBLIC */
+  /* fade */
+  .fade-enter-active, .fade-leave-active {
+    transition: all .7s ease-in-out;
+  }
+  .fade-enter, .fade-leave-to {
+    opacity: 0;
+  }
+  /* slide to left */
+  .height-enter-active, .height-leave-active {
+    transition: all 1s ease-in-out;
+  }
+  .height-enter, .height-leave-to {
+    transform: translateX(500px);
+    opacity: 0;
+  }
+  /* slide to left base*/
+  .slide-left-enter-active, .slide-left-leave-active {
+    transition: all .5s ease-in-out;
+  }
+  .slide-left-enter, .slide-left-leave-to {
+    transform: translateX(500px);
+    opacity: 0;
+  }
+  /* mobile btn component */
+  .mobile-detail-enter-active {
+    transition: all 1s ease-out;
+  }
+  .mobile-detail-leave-active {
+    transition: all 1s ease-in;
+  }
+  .mobile-detail-enter {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  .mobile-detail-leave-to {
+    transform: translateY(-150vh);
+  }
+  /* tombol navigasi mobile */
+  .mobile-btn-enter-active, .mobile-btn-leave-active {
+    transition: all .7s ease-out;
+  }
+  .mobile-btn-enter, .mobile-btn-leave-to {
+    transform: translateX(25px);
+  }
+  
